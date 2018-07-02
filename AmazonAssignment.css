@@ -1,21 +1,18 @@
+
+form {
+    border: 1px solid lightgrey;
+    padding-left: 10%;
+    padding-bottom: 6.3%;
+}
+img {
+    max-width: 100%;
+} 
+
 body {
     margin-left: 10%;
     margin-right: 10%;
     height:100%;
 }
-
-div {
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-block-end: 10%;
-    border: 1px solid black;
-    width: 50%;
-    height: 300px;
-} 
-
-img {
-    max-width: 100%;
-} 
 
 .clearfix:after {
     content: "";
@@ -23,10 +20,20 @@ img {
     display: table;
 } 
 
+input {
+    size: 100%;
+}
 #SignInButton {
     background-color: yellow;
 } 
 
 #CreateAccount {
     background-color: gray;
+} 
+
+@media screen and (min-width: 350px) {
+    input {
+        size: 10%;
+    }
 }
+
