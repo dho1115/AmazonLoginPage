@@ -1,0 +1,32 @@
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+    height:100%;
+}
+
+div {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-block-end: 10%;
+    border: 1px solid black;
+    width: 50%;
+    height: 300px;
+} 
+
+img {
+    max-width: 100%;
+} 
+
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: table;
+} 
+
+#SignInButton {
+    background-color: yellow;
+} 
+
+#CreateAccount {
+    background-color: gray;
+}
